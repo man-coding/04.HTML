@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        label {
+            display: inline-block;
+            width: 50px;
+        }
+
+        input {
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>로그인 입력폼 만들기</h2>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>로그인</legend>
+
+            <div>
+                <label for="user_id">ID</label>
+                <input type="text" id="user_id" name="user_id">
+
+            </div>
+
+            <div>
+                <label for="user_pw">PW</label>
+                <input type="password" id="user_pw" name="user_pw">
+            </div>
+        </fieldset>
+
+
+        <input type="submit" value="확인">
+        <!--특별한 이유가 없으면 마지막에 항상 달아준다-->
+        <input type="reset" value="취소">
+
+    </form>
+
+</body>
+
+</html>

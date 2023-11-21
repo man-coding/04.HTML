@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        ul {  
+            list-style: none;
+        }
+
+        li {
+            width: 300px;
+            line-height: 50px;
+            /*항목 높이 바꾸기*/
+        }
+
+        label {
+            width: 60px;
+            float: left;
+            /*글자 왼쪽 정렬(인라인 포함)*/
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <form action="#" method="post">
+        <fieldset>
+            <h2>예약 정보</h2>
+
+            <ul>
+                <li>
+                    <label for="user_name">이 름</label>
+                    <input type="text" id="user_name" name="user_name">
+                </li>
+
+                <li>
+                    <label for="user_phone">휴대폰</label>
+                    <input type="text" id="user_phone" name="user_phone">
+                </li>
+
+                <li>
+                    <label for="user_email">이메일</label>
+                    <input type="email" id="user_email" name="user_email">
+                </li>
+            </ul>
+            <button>예약하기</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

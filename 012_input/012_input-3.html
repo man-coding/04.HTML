@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+
+    <h1>체크박스, 라디오버튼 만들기</h1>
+    
+    <!-- 체크박스 --> <!--체크박스 중복 가능-->
+
+    <p>
+        <label for="c1">사과</label>
+        <input type="checkbox" id="c1">
+        
+        <label for="c2">바나나</label>
+        <input type="checkbox" id="c2" checked>
+    </p>
+
+    <!-- 라디오버튼 -->   <!-- 라디오버튼 중복 선택 불가, name을 사용하여 그루핑해줘야 함-->
+    <p>
+        <label for="h1">축구</label>
+        <input type="radio" id="h1" name="hobby">
+
+        <label for="h2">야구</label>
+        <input type="radio" id="h2" name="hobby" checked>
+
+        <label for="h3">농구</label>
+        <input type="radio" id="h3" name="hobby">
+    </p>
+</body>
+</html>
